@@ -15,12 +15,26 @@ const styles = {
   nav: {
     padding: "1rem 2rem",
     background: "#fef8f5",
-    boxShadow: "0px 1px 5px rgba(0,0,0,0.05)"
+    boxShadow: "0px 1px 5px rgba(0,0,0,0.05)",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center"
   },
   logo: {
     fontSize: "1.5rem",
     fontWeight: "bold",
     margin: 0
+  },
+  links: {
+    display: "flex",
+    gap: "1.5rem",
+    alignItems: "center"
+  },
+  link: {
+    cursor: "pointer",
+    color: "#333",
+    textDecoration: "none",
+    fontWeight: "500"
   }
 };
 

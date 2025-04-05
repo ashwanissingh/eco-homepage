@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import Features from "./Features";
-import Footer from "./Footer";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import Footer from "./components/Footer";
+import "./App.css"; // make sure to import the CSS
 
 function App() {
   return (
-    <div className="App">
+    <div className="app-layout">
       <Navbar />
       <Hero />
       <Features />

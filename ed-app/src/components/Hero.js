@@ -29,7 +29,7 @@ const styles = {
     padding: "2rem"
   },
   heading: {
-    fontSize: "2.5rem",
+    fontSize: "5rem",
     fontWeight: "bold",
     textAlign: "center",
     marginBottom: "2rem"
