@@ -1,2 +1,2 @@
-# ed-app
+# eco-app
  homepage
